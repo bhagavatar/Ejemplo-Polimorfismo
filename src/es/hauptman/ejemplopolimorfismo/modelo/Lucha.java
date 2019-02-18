@@ -21,7 +21,7 @@ public class Lucha {
 
     private static void luchad(Personaje enano, Personaje guerrero) {
         do {            
-           lance(enano, guerrero);//Que es este metodo lance?
+           lance(enano, guerrero);
            lance(guerrero, enano);
         } while (enano.getVida() > 0 && guerrero.getVida() > 0);
     }
